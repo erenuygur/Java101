@@ -1,6 +1,7 @@
 package examples;
 
 import java.util.Scanner;
+
 public class KdvTutari {
     public static void main(String[] args)
     {
