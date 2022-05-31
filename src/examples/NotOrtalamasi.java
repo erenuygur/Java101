@@ -3,8 +3,8 @@ package examples;
 import java.util.Scanner;
 
 public class NotOrtalamasi {
-    public static void main(String[] args) {
-
+    public static void main(String[] args)
+    {
         Scanner kb = new Scanner(System.in);
 
         int mat, fizik, kimya, turkce, tarih, muzik, ort;
