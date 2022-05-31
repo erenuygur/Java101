@@ -1,6 +1,6 @@
-package TemelKavramlarVeDegiskenler;
+package examples;
 
-public class DegiskenTipleri {
+public class NotOrtalamasi {
     public static void main(String[] args) {
         int a;
         double b;
