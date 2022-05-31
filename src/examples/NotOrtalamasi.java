@@ -1,35 +1,35 @@
 package examples;
 
 import java.util.Scanner;
+
 public class NotOrtalamasi {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
 
-        int mat,fizik,kimya,turkce,tarih,muzik,ortalama;
+        Scanner kb = new Scanner(System.in);
+
+        int mat, fizik, kimya, turkce, tarih, muzik, ort;
 
         System.out.print("Matematik Notunuz : ");
-        mat= input.nextInt();
+        mat = kb.nextInt();
 
         System.out.print("Fizik Notunuz : ");
-        fizik= input.nextInt();
+        fizik = kb.nextInt();
 
         System.out.print("Kimya Notunuz : ");
-        kimya= input.nextInt();
+        kimya = kb.nextInt();
 
-        System.out.print("Türkçe Notunuz : ");
-        turkce= input.nextInt();
+        System.out.print("Turkce Notunuz : ");
+        turkce = kb.nextInt();
 
         System.out.print("Tarih Notunuz : ");
-        tarih= input.nextInt();
+        tarih = kb.nextInt();
 
-        System.out.print("Müzik Notunuz : ");
-        muzik= input.nextInt();
+        System.out.print("Muzik Notunuz : ");
+        muzik = kb.nextInt();
 
-        ortalama=(mat+fizik+kimya+turkce+tarih+muzik)/6;
+        ort = mat + fizik + kimya + turkce + tarih + muzik;
+        double result = ort / 6;
 
-        System.out.println("\n"+(ortalama>60?"Sınıfı Geçtiniz ":"Sınıfta Kaldınız"));
-
-
-
+        System.out.println("" + (result > 60 ? "Sinifi Gectiniz": "Sinifta Kaldiniz"));
     }
 }
