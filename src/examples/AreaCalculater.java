@@ -10,13 +10,13 @@ public class AreaCalculater {
         int a, b, c, cevre;
         double alan;
 
-        System.out.print("Ilk kosenin uzunlugunu giriniz");
+        System.out.print("Ilk kosenin uzunlugunu giriniz:");
         a = Integer.parseInt(kb.nextLine());
 
-        System.out.print("Ikinci kosenin uzunlugunu giriniz");
+        System.out.print("Ikinci kosenin uzunlugunu giriniz:");
         b = Integer.parseInt(kb.nextLine());
 
-        System.out.print("Ucuncu kosenin uzunlugunu giriniz");
+        System.out.print("Ucuncu kosenin uzunlugunu giriniz:");
         c = Integer.parseInt(kb.nextLine());
 
         cevre = a + b + c;
