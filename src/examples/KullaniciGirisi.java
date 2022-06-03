@@ -23,9 +23,9 @@ public class KullaniciGirisi {
 
             if (select == 1) {
                 System.out.print("Yeni sifrenizi giriniz :");
-                String newpass = kb.nextLine();
+                String newPass = kb.nextLine();
 
-                if (newpass.equals("1234"))
+                if (newPass.equals("1234"))
                     System.out.println("Ayni sifreyi girdiniz. Lutfen tekrar deneyin");
                 else
                     System.out.println("Yeni sifreniz basarilya olusturuldu");
