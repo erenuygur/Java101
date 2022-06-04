@@ -1,6 +1,6 @@
 package examples;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class BasitHesapMakinesi {
     public static void main(String[] args)
@@ -21,16 +21,16 @@ public class BasitHesapMakinesi {
 
         switch (secim) {
         case 1:
-            System.out.printf("" + (x + y));
+            System.out.println("" + (x + y));
             break;
         case 2:
-            System.out.printf("" + (x - y));
+            System.out.println("" + (x - y));
             break;
         case 3:
-            System.out.printf("" + (x * y));
+            System.out.println("" + (x * y));
             break;
         case 4:
-            System.out.printf("" + (x / y));
+            System.out.println("" + (x / y));
             break;
         default:
             System.out.println("Gecersiz bir secim yaptiniz. Tekrar deneyin");
