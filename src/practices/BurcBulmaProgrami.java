@@ -3,8 +3,8 @@ package practices;
 import java.util.Scanner;
 
 public class BurcBulmaProgrami {
-    public static void main(String[] args) {
-
+    public static void main(String[] args)
+    {
         Scanner kb = new Scanner(System.in);
 
         System.out.print("Dogdugunuz ay: ");
