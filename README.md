@@ -1,1 +1,1 @@
-## Patika.dev Java101 Practicesand Homeworks
+## Patika.dev Java101 Practices and Homeworks
