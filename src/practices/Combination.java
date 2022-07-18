@@ -7,10 +7,10 @@ public class Combination {
     {
         Scanner kb = new Scanner(System.in);
 
-        System.out.print("n : ");
+        System.out.print("n :");
         int n = Integer.parseInt(kb.nextLine());
 
-        System.out.print("r: ");
+        System.out.print("r :");
         int r = Integer.parseInt(kb.nextLine());
 
         int result = combination(n, r);
