@@ -2,7 +2,7 @@ package homeworks;
 
 import java.util.Scanner;
 
-public class ForDongusuOrnegi {
+public class ForDongusuOdevi {
     public static void main(String[] args)
     {
         Scanner kb = new Scanner(System.in);
