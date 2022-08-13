@@ -7,7 +7,7 @@ public class PrimeNumber {
     {
         Scanner kb = new Scanner(System.in);
 
-        System.out.print("Bir sayi giriniz: ");
+        System.out.print("Bir sayi giriniz:");
         int val = Integer.parseInt(kb.nextLine());
 
         if (isPrime(val))
